@@ -3,5 +3,7 @@
     public class Voucher
     {
         private string id;
+        private string name;
+
     }
 }
