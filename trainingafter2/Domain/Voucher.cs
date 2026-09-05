@@ -4,6 +4,6 @@
     {
         private string id;
         private string name;
-
+        private decimal discountAmount;
     }
 }
