@@ -46,6 +46,5 @@ jobs:
           -o StrictHostKeyChecking=no \
           -p 2222 \
           Admin@localhost \
-          "echo 'Deployed by GitHub Actions' > C:\Users\Admin\idolgioitre-test.txt"
-          "echo 'vai loz idol' >> C:\Users\Admin\idolgioitre-test.txt"
+          "powershell -Command \"Set-Content -Path 'C:\\Users\\Admin\\idolgioitre-test.txt' -Value 'vai loz idol'\""
 
